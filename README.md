@@ -1,6 +1,6 @@
 Bu bir sosyal medya tarif uygulamasıdır. Home kısmında tarifleri listeleyebilir, Search kısmında tarif aratabilir, Add Content kısmında tarif ekleyebilir, 
-Favorites kısmında favori tarifleri görüntüleyebilir ve Profil kısmında profilinizi görüntüleyerek kendi paylaşımlarınızı görüntüleyebilirsiniz. Contenlerin listelenmesi için
-Recyclerview kullanıldı ve hepsi için bir adapter bulunuyor, bu adapter'in constructor'ına farklı Content listleri argüman olarak yollayarak contentlerimizi listeliyoruz.
+Favorites kısmında favori tarifleri görüntüleyebilir ve Profil kısmında profilinizi görüntüleyerek kendi paylaşımlarınızı görüntüleyebilirsiniz. Contentlerin listelenmesi için
+Recyclerview kullanıldı ve hepsi aynı adapter'ı kullanıyor, bu adapter'in constructor'ına farklı Content listleri argüman olarak yollayarak contentlerimizi listeliyoruz.
 Veritabanı için Firebase kullanıldı. Görsel tutmak için Storage, Authentication için Fİrebase Authentication, diğer datalar için Firestore kullanıldı. 
 Firebase Firestore yapısı aşağıdaki gibi görünüyor.
 
