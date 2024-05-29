@@ -1,7 +1,8 @@
 Bu bir sosyal medya tarif uygulamasıdır. Home kısmında tarifleri listeleyebilir, Search kısmında tarif aratabilir, Add Content kısmında tarif ekleyebilir, 
 Favorites kısmında favori tarifleri görüntüleyebilir ve Profil kısmında profilinizi görüntüleyerek kendi paylaşımlarınızı görüntüleyebilirsiniz. Contenlerin listelenmesi için
 Recyclerview kullanıldı ve hepsi için bir adapter bulunuyor, bu adapter'in constructor'ına farklı Content listleri argüman olarak yollayarak contentlerimizi listeliyoruz.
-Veritabanı için Firebase kullanıldı. Firebase yapısı aşağıdaki gibi görünüyor.
+Veritabanı için Firebase kullanıldı. Görsel tutmak için Storage, Authentication için Fİrebase Authentication, diğer datalar için Firestore kullanıldı. 
+Firebase Firestore yapısı aşağıdaki gibi görünüyor.
 
 <img width="1136" alt="Screenshot 2024-05-29 at 14 39 29" src="https://github.com/OzbekFurkan/TarifSosyalMedyaJavaAndroid/assets/104983850/a14c2279-195b-4489-972e-290c3d331d94">
 
