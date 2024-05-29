@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/btn_close_mail_pop"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:id="@+id/mail_pop_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Eksik Malzeme Bildirim Formu"
+        android:textAlignment="center"
+        android:textColor="#EDEAEA" />
+
+    <EditText
+        android:id="@+id/absent_ing_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="eksik  malzeme ismini giriniz."
+        android:inputType="text"
+        android:textColor="#EDEAEA"
+        android:textColorHint="#EDEAEA"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_send_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Send" />
+</LinearLayout>

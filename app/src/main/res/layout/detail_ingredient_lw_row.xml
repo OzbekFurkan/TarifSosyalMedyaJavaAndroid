@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/custom_content"
+    android:paddingEnd="5dp">
+
+
+    <TextView
+        android:id="@+id/d_ing_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="5dp"
+        android:paddingTop="3dp"
+        android:text="Malzeme İsmi"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/d_ing_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="3dp"
+        android:paddingEnd="3dp"
+        android:text="Fiyatı"
+        android:textAlignment="textEnd"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/d_ing_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="3dp"
+        android:text="TL"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/d_ing_seller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="3dp"
+        android:text="Şok"
+        android:textAlignment="textEnd"
+        android:textSize="16sp" />
+</LinearLayout>
