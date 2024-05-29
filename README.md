@@ -12,3 +12,4 @@ Veritabanı için Firebase kullanıldı. Firebase yapısı aşağıdaki gibi gö
 Burada ingredients(malzemeler) collection'ında dataları kendimiz girmemiz gerekiyor (yani bu collection'ı biz oluşturuyoruz ve auto id ile document olarak malzemelerimizi giriyoruz).
 Mazelemelerdeki 'price_link' field'ı 'cimri.com' sitesinden JSoup ile Webscrapping yaparak fiyat çekmek için gereklidir. Malzeme datası girerken bu siteden o malzemeyi bulup 
 linkini atmanız yeterlidir.
+Not: Bu veritabanını kullanabilmeniz için Firebase console'da kendi projenizi oluşturup indireceğiniz sdk (.json) dosyasını 'app' klasörüne atmalısınız.
